@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="alr"><b>Already have account?</b></div>
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn"><a class="xd" href="Log-in.html">Log in</a></button>
+            </div>
+            <form id="register" class="input-group">
+                <input type="email" class="input-field" placeholder="Write your email" required>
+                <input type="tel" class="input-field" placeholder="Write your number" required>
+                <input type="text" class="input-field" placeholder="Create username" required>
+                <input type="password" class="input-field" placeholder="Create password" required>
+                <p class="txtreg">Birthday</p>
+                <input type="date" class="input-field"required>
+                <p class="txtreg">Gender:</p>
+                <div>
+                    <input type="radio" id="regChoice1" name="reg" value="Man" />
+                    <label for="regChoice1">Male</label>
+                
+                    <input type="radio" id="regChoice2" name="reg" value="Woman" />
+                    <label for="regChoice2">Female</label>
+                
+                    <input type="radio" id="regChoice3" name="reg" value="cat" />
+                    <label for="regChoice3">Prefer not to say</label>
+                  </div>
+                  <input type="checkbox" class="check-box"><span>I agree with policy</a></span>
+                  <button type="submit" class="submit-btn"><a class="xd" href="Login.html">Submit</a></button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
